@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <div id="back-to-home">
+        <a href="index.html" title="Regresar al inicio">&larr;</a>
+    </div>
+</head>
+<body>
+    <div class="audio-container">
+        <section>
+            <h1>disaster.flac</h1>
+            <p>Intente subirla pero por cuestiones de copyright no se pudo unu</p>
+            <p>Es de mi Album pasado "23"</p>
+        </section>
+        
+        <div class="card">
+            <div class="top">
+                <div class="pfp">
+                    <div class="playing">
+                        <div class="greenline line-1"></div>
+                        <div class="greenline line-2"></div>
+                        <div class="greenline line-3"></div>
+                        <div class="greenline line-4"></div>
+                        <div class="greenline line-5"></div>
+                    </div>
+                </div>
+                <div class="texts">
+                    <p class="title-1">Disaster</p>
+                    <p class="title-2">Oke Beatz</p>
+                </div>
+            </div>
+            <div class="controls">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="24" width="24" class="control-button" id="previous">
+                    <path clip-rule="evenodd" d="M12 21.6a9.6 9.6 0 1 0 0-19.2 9.6 9.6 0 0 0 0 19.2Zm.848-12.352a1.2 1.2 0 0 0-1.696-1.696l-3.6 3.6a1.2 1.2 0 0 0 0 1.696l3.6 3.6a1.2 1.2 0 0 0 1.696-1.696L11.297 13.2H15.6a1.2 1.2 0 1 0 0-2.4h-4.303l1.551-1.552Z" fill-rule="evenodd"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="24" width="24" class="control-button" id="play-pause">
+                    <!-- Initial play icon -->
+                    <path d="M5 3.879v16.242c0 1.067 1.292 1.625 2.048.848l13.152-8.121c.747-.462.747-1.579 0-2.041L7.048 3.031C6.292 2.254 5 2.812 5 3.879z"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="24" width="24" class="control-button" id="next">
+                    <path clip-rule="evenodd" d="M12 21.6a9.6 9.6 0 1 0 0-19.2 9.6 9.6 0 0 0 0 19.2Zm4.448-10.448-3.6-3.6a1.2 1.2 0 0 0-1.696 1.696l1.551 1.552H8.4a1.2 1.2 0 1 0 0 2.4h4.303l-1.551 1.552a1.2 1.2 0 1 0 1.696 1.696l3.6-3.6a1.2 1.2 0 0 0 0-1.696Z" fill-rule="evenodd"></path>
+                </svg>
+            </div>
+            <div class="time">
+                <div class="elapsed"></div>
+            </div>
+            <p class="timetext time_now">0:00</p>
+            <p class="timetext time_full">3:46</p>
+        </div>
+    </div>
+    <audio id="audio-player">
+        <source src="src/Disaster.flac" type="audio/flac">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script2.js"></script>
+</body>
+</html>

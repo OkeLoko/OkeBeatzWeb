@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.song-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    max-width: 700px; /* Limita el ancho total de la lista */
+}
+
+.song-item {
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: background-color 0.4s ease;
+    width: 100%; /* Asegura que las cajas tomen el ancho completo de la lista */
+    box-sizing: border-box; /* Asegura que el padding y border estén incluidos en el ancho */
+}
+
+.song-title {
+    margin: 0;
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 8px;
+}
+
+/* Estilo para la flecha de regreso al inicio en el header */
+#back-to-home {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1000;
+}
+
+#back-to-home a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#back-to-home a:hover {
+    color: #ff4a4a; /* Cambia el color al pasar el mouse */
+}
+
+header {
+    position: relative;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
