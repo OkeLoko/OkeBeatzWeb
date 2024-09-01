@@ -6,6 +6,7 @@
     <title>Oke Beatz Web</title>
     <meta name="description" content="Bienvenido a Oke Beatz Web, tu fuente de música y beats. Escucha y descarga los mejores tracks aquí.">
     <meta name="keywords" content="Oke Beatz, música, beats, audio, reproductor de audio">
+
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
     <link rel="icon" type="image/x-icon" href="src/Logo.jpg">
@@ -31,7 +32,8 @@
 <body>
     <header>
         <div class="logo">
-            <img src="src/Logo.jpg" alt="Oke Logo">            
+            <img src="src/Logo.jpg" alt="Oke Logo">
+            
         </div>
         <nav>
             <ul>
@@ -93,7 +95,14 @@
                     </a>
                 </div>
             </div>
-        </section>       
+        </section>
+
+        <section id="audio-button">
+            <button class="old-btn" id="pre-save-button">
+                <span>disaster.flac</span>
+            <p id="click-count"></p>
+        </section>
+        
         <section id="random">
             <button class="btn-class-name" id="random">
                 <span class="back"></span>
@@ -107,7 +116,8 @@
             <p><a href="https://twitter.com/okebeatz" target="_blank" class="contact-link">Twitter: stffu.oke</a></p>
             <p><a href="https://www.facebook.com/rene.ok.336" target="_blank" class="contact-link">Facebook: Rene Oke</a></p>
             <p><a href="https://www.tiktok.com/@reneoke?_t=8n4VIyqIIdR&_r=1" target="_blank" class="contact-link">TikTok: @reneoke</a></p>
-            <p><a href="https://soundcloud.com/oke-beatz" target="_blank" class="contact-link">SoundCloud: Oke Beatz</a></p>       
+            <p><a href="https://soundcloud.com/oke-beatz" target="_blank" class="contact-link">SoundCloud: Oke Beatz</a></p>
+           
         </section>
     </main>
     <footer>
@@ -116,7 +126,11 @@
             <a href="st.html" title="Más información" id="footer-question-mark">?</a>
         </p>
     </footer>
+    
+     
     <div id="countdown-message" class="countdown-message" style="display: none;"></div>
+    
     <script src="script.js"></script>
+
 </body>
 </html>
